@@ -172,7 +172,7 @@ body {
   padding: 10px 0;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  font-family: 'Noto Serif SC', serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .nav-inner {
@@ -200,7 +200,7 @@ body {
 
 /* 只显示当前活动页面的红线 */
 .nav-link.active {
-  color: #e74c3c;
+  color: #000000;
   font-weight: bold;
 }
 
@@ -212,8 +212,8 @@ body {
   transform: translateX(-50%);
   width: 80%;
   height: 3px;
-  background-color: #e74c3c;
   display: none; /* 默认隐藏 */
+  font-weight: bold;
 }
 
 /* 通过JavaScript添加的clicked类显示红线 */
@@ -332,7 +332,7 @@ footer {
 .contact-info p {
   margin-bottom: 8px;
   color: rgb(33, 31, 31);
-  font-family: 'Noto Serif SC', serif;
+  font-family: 'Times New Roman', Times, serif;
   
 }
 .company-intro {
@@ -343,7 +343,7 @@ footer {
   padding: 0 16px;       /* 给两边加点内边距避免贴边 */
   word-wrap: break-word; /* 防止长词撑出边界 */
   box-sizing: border-box;
-  font-family: 'Noto Serif SC', serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 
