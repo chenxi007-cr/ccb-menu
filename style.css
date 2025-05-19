@@ -1,6 +1,5 @@
 * {
-  margin: 0;
-  padding: 0;
+  
   box-sizing: border-box;
 }
 
@@ -8,6 +7,8 @@ body {
   font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
   background-color: #f9f9f9;
   color: #333;
+  margin: 0;
+  padding: 0;
 }
 
 /* Logo */
@@ -26,6 +27,7 @@ body {
   width: 100%;
   height: 500px;
   position: relative; /* 设置相对定位，箭头按钮相对于容器定位 */
+  overflow: hidden;
 }
 
 .swiper-slide img {
