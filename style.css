@@ -459,11 +459,14 @@ text-align: center;
 font-family: 'Times New Roman', Times, serif;
 }
 
-.section-title .note {
+.note {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 0.7em;
   font-weight: normal;
-  text-align: center;
-  color: #555; /* 你也可以用 #999 或灰色 */
+  color: #555;
+  margin-top: 8px; /* 可选：拉近上下间距 */
+  margin-bottom: 3px;
 }
 
 
