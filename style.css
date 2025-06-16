@@ -155,6 +155,7 @@ body {
   0%, 100% { transform: translateX(0); }
   50% { transform: translateX(-100%); }
 }
+
 .page-title {
   text-align: center;
   font-size: 1.8rem;
