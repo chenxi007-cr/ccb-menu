@@ -172,7 +172,7 @@ body {
 
 .main-nav {
   background-color: #f1f1f1;
-  padding: 10px 0;
+  padding: 8px 0;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   font-family: 'Times New Roman', Times, serif;
@@ -180,21 +180,35 @@ body {
 
 .nav-inner {
   display: flex;
-  justify-content: center;
-  max-width: 800px;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 0 10px;
   margin: 0 auto;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .nav-link {
-  padding: 12px 20px;
+  flex: 1;   
+  padding: 8px 4px;
   text-decoration: none;
   color: #333;
-  font-weight: 500;
-  font-size: 1.1rem;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
   position: relative;
-  transition: all 0.3s;
-  margin: 0 5px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  margin: 0 2px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;                  /* 防止超出 */
+  text-overflow: ellipsis;
+  font-weight: lighter;     
 }
 
 .nav-link:hover {
@@ -203,7 +217,7 @@ body {
 
 /* 只显示当前活动页面的红线 */
 .nav-link.active {
-  color: #000000;
+  color: #de0707;
   font-weight: bold;
 }
 
@@ -215,7 +229,7 @@ body {
   transform: translateX(-50%);
   width: 80%;
   height: 3px;
-  display: none; /* 默认隐藏 */
+  display: block; /* 默认隐藏 */
   font-weight: bold;
 }
 
@@ -306,6 +320,7 @@ body {
     padding: 10px;
     gap: 20px;
   }
+ 
 }
 
 /* 确保页面响应式 */
