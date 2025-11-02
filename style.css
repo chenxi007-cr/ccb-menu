@@ -478,6 +478,25 @@ text-align: center;
 font-family: 'Times New Roman', Times, serif;
 }
 
+/* 每日限时section默认隐藏 */
+.daily-time-limited {
+  display: none;
+}
+
+/* 时段内激活显示 */
+.daily-time-limited.active {
+  display: block;
+}
+
+.Daily-time-limited {
+  display: none;
+}
+
+/* 时段内激活显示 */
+.Daily-time-limited.active {
+  display: block;
+}
+
 
 
 
