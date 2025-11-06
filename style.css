@@ -252,6 +252,19 @@ body {
   max-width: 300px;
 }
 
+.menu-section h1 {
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #b60000;
+  text-align: center;
+  margin: 40px auto 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #000000;
+  width: 80%;
+  max-width: 300px;
+}
+
 /* 菜单容器 */
 
 /* 增强的响应式设计 */
@@ -262,6 +275,10 @@ body {
   }
 }
   .menu-section h2 {
+      font-size: 1.5rem;
+      width: 90%;
+  }
+  .menu-section h1 {
       font-size: 1.5rem;
       width: 90%;
   }
@@ -290,6 +307,10 @@ body {
   }
   
   .menu-section h2 {
+      font-size: 1.3rem;
+      margin: 30px auto 15px;
+  }
+  .menu-section h1 {
       font-size: 1.3rem;
       margin: 30px auto 15px;
   }
